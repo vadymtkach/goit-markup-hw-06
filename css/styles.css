@@ -862,7 +862,7 @@ footer{
     transform: translate(-50%, -50%) scale(1);
 
     width: 408px;
-    height: 576px;
+    height: 584px;
 
     background-color: #FCFCFC;
 
@@ -963,6 +963,7 @@ input{
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 14px;
 }
 label{
     font-family: 'Roboto';
@@ -996,7 +997,7 @@ textarea{
     padding-left: 16px;
     padding-top: 8px;
     outline: none;
-    margin-bottom: 16px;
+    
     color:  #2E2F42;
 }
 textarea:focus{
@@ -1040,17 +1041,22 @@ textarea:focus{
 .footer-form{
     margin-left: 80px;
     position: relative;
+    
 }
 .footer-form-field{
+    
     margin-top: 16px;
+    display: flex;
 
 }
 
 .button-subscribe{
-    display: inline-block;
+    display: flex;
+    align-items: center;
+
     
-    padding: 8px 24px;
-    padding-right: 60px;
+    padding-left: 20px;
+    
     
     width: 160px;
     
@@ -1091,7 +1097,7 @@ textarea:focus{
     border-radius: 4px;
     color: white;
     
-    padding: 16px;
+    padding-left: 16px;
     
 }
 .icon-modal{
@@ -1108,14 +1114,14 @@ textarea:focus{
     
 }
 .icon-send{
-    padding: 0;
+    margin-left: 10px;
     width: 24px;
     height: 24px;
-    position: absolute;
+    /* position: absolute;
     margin-top: 10px;
     right: 8px;
 
-    transform: translateX(-50%);
+    transform: translateX(-50%); */
 }
 
 
